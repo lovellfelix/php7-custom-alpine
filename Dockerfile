@@ -11,9 +11,11 @@ RUN apk --no-cache add \
     php7-ctype \
     php7-curl \
     php7-dom \
+    php7-exif \
     php7-fileinfo \
     php7-ftp \
     php7-gd \
+    php7-gettext \
     php7-iconv \
     php7-intl \
     php7-json \
@@ -35,7 +37,7 @@ RUN apk --no-cache add \
     php7-xmlreader \
     php7-xmlwriter \
     php7-zip \
-    php7-zlib
+    php7-zlib 
 
 RUN cp /usr/bin/php7 /usr/bin/php \
     && rm -f /var/cache/apk/*
