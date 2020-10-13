@@ -5,7 +5,7 @@ RUN apk --no-cache add \
     bash shadow \
     curl ca-certificates openssl openssh \
     apache2 apache2-http2  \
-    zip unzip \
+    zip unzip ffmpeg \
     php7 \
     php7-apache2 \
     php7-ctype \
