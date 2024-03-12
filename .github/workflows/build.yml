@@ -47,7 +47,7 @@ jobs:
         uses: crazy-max/ghaction-docker-buildx@v3.3.1
       -
         name: Checkout
-        uses: actions/checkout@v4.1.1
+        uses: actions/checkout@v4.1.2
       -
         name: Docker Buildx (build)
         run: |
